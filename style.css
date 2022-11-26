@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.chariot {
+    background-image: url('./img/chariot.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.heading {
+    padding-top: 250px;
+    font-size: 2.5em;
+    font-family: poppins;
+    color: midnightblue;
+}
+
+.heading:hover {
+    color: orange;
+}
+
+.content {
+    font-size: 1.5em;
+    position: relative;
+    bottom: 20px;
+    font-family: dosis;
+}
+
+.zodiac1 {
+    margin-left: 200px;
+    padding-top: 150px;
+    width: 400px;
+}
+
+.arrow {
+    margin-left: 16px;
+}
+::selection {
+    background: orange;
+    color: white;
+}
+.get{
+    background-color: orange;
+    width: 55%;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    font-family: baloo 2;
+}
+.zodiac-get{
+    color: white;
+    text-decoration: none;
+}
+.zodiac-get:hover{
+    color: white;
+}

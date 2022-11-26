@@ -1,0 +1,100 @@
+.astrologer{
+    padding-left: 60px;
+    margin: 20px;
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-family: oswald;
+}
+.astrologer a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    display: inline-flex;
+    padding: 15px;
+    padding-inline: 20px;
+    list-style: none;
+}
+li{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: Quicksand;
+
+} 
+.arrow1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+li:hover{
+    color: blue;
+    cursor: pointer;
+} 
+.navvbar{
+    margin-top: 20px;
+    margin-left: 5%;
+    background-color: #EEEEEE;
+    margin-right: 100px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px orange;
+}
+.logo{
+    width: 50px;
+    padding-bottom: 5px;
+}
+.btnn{
+    border: 0px;
+}
+
+#hidden-aries{
+    display: none;
+}
+
+.links-a{
+    color: black;
+    text-decoration: none;
+}
+/* Zodiac-info */
+.zodiac-info{
+    background-color: black;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 6%;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: #fafafa;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.z-n{
+    color: black;
+    font-weight: 400;
+}
+
+.zodiac-name{
+    font-size: 1.5em;   
+    font-weight: bolder;
+    color: midnightblue;
+    font-family: kalam;
+}
+.data{
+    font-family: rajdhani;
+    font-size: 1.2em;
+}
+.color{
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+    background-color: #191970;
+    color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+/* hidden */
+.hidden{
+    display: none;
+}
