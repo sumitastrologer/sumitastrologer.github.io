@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+body{
+    background-color: white;
+}
+
+
+/* Navbar Started */
+
+/* Slide navbar */
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  width: 0;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: left;
+}
+.heading-cat{
+  color: #EEEEEE;
+  margin-left: 35px;
+  font-size: 1.5em;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* Slide navbar Finished */
+
+.navbarr{
+    margin-top: 20px;
+    background-color: white;
+    height: 60px;
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.pr{
+  position: relative;
+  bottom: 20px;
+}
+li{
+    display: inline-flex;
+    padding-inline: 10px;
+    font-family: poppins;
+    list-style: none;
+    border-radius: 15px;
+    font-size: 1.2em;
+    margin-top: 14px;
+}
+a{
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: black;
+    display: inline-block;
+    padding-bottom: 0.25rem; 
+    /* defines the space between text and underline */
+    position: relative;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #0A2647;
+    transition: width 0.25s ease-out;
+  }
+  .nav-link:hover::before {
+    width: 100%;
+  }
+
+  /* Navbar Completed */
+
+  /* Header Garoid */
+  #garoid{
+    font-size: 2em;
+    font-family: poppins;
+    width: 350px;
+    background: linear-gradient(to right, #8693AB , #BDD4E7);
+    color: white;
+    border-radius: 50px;
+    margin: 20px;
+    margin-top: 36px;
+    margin-left: -20px;
+  }
+  #garoid:hover{
+    cursor: zoom-in;
+  }
+  #garoid center{
+    color: white;
+  }
+
+  .display-flex{
+    display: inline-flex;
+  }
+  /* Search Bar */
+  .search{
+    width: 485px;
+    margin-top: 19px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  #mySearch{
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    border-radius: 20px;
+    font-size: 1em; 
+  }
+
+  /* images */
+  .cards{
+    margin-top: 50px;
+  }
+  .full-game-card{
+    margin: 10px;
+    padding: 12px;
+    position:sticky;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background:  white;
+    height: 315px;
+  } 
+  .full-game-card:hover{
+    padding: 17px;
+    margin: 5px;
+  }
+  .data{
+    color: black;
+  }
+  .game-img{
+    width: 250px;
+    border-radius: 10px;
+  }
+  .h-img{ 
+    width: 547px;
+    border-radius: 10px;
+  }
+  .row{
+    margin-top: 60px;
+  }
+  .diff-pad{
+    height: 330px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2A2A72; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+  }
+  .row-sm{
+    margin-left: 150px;
+  }
+  .search-icon{
+    position: relative;
+    right: 220px;
+    top: 32px;
+    color: #0A2647;
+  }
+  .data{
+    text-align: center;
+  }
+  

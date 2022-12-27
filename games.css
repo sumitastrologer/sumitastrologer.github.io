@@ -1,0 +1,128 @@
+body{
+    background-color: white;
+}
+.search-game{
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+}
+.full-game-detail{
+    margin-top: 100px;
+}
+.game-img{
+    width: 400px;
+    margin-right: 30px;
+    margin-left: 200px;
+}
+.row-sm{
+    display: inline-flex;
+}
+.game-name{
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.font-2{
+    font-size: 2em;
+    font-family: "Audiowide", sans-serif;
+}
+.data{
+    font-size: 1em;
+    font-family: poppins;
+    color: #00A173;
+    text-align: left;
+}
+.data strong{
+    color: #00A173;
+}
+.btn{
+    background-color: #0D6EFD;
+    border: 0px solid #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn a{
+    color: white;
+}
+.btn:hover a{
+    color: #0D6EFD;
+}
+.btn:hover{
+    color: #0D6EFD;
+    background-color: white;
+    border: 1px solid #0D6EFD;
+    transition: .4s;
+}
+.note{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.requirements{
+    margin-left: 350px;
+}
+.h-req{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.req{
+    display: block;
+}
+
+.s-s{
+    width: 800px;
+    display: block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.how-to{
+    display: block;
+    margin-left: 350px;
+}
+.how-to a{
+    color: #0D6EFD;
+}
+.how{
+    margin-bottom: 70px;
+}
+
+
+/* Download Pages d-<Game Names> */
+.how-download{
+    background-color: white;
+    width: 40%;
+    margin-left: 28%;
+    margin-top: 2%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: poppins;
+}
+.w{
+    width: 20%;
+    font-family: poppins;
+    margin: 20px;
+}
+.t-s{
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+.dn{
+    width: 50%;
+    margin: 20px;
+}
+.faq{
+    width: 50%;
+    text-align: left;
+}
+.p-hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hr-img{
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
